@@ -1,6 +1,31 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container {
   max-width: 1440px;
   margin: auto;
+}
+
+.home {
+  position: fixed;
+  background: url("../img/Outdoor_Side 1.jpg") no-repeat right;
+  height: 850px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.home-left {
+  width: 865px;
+  height: 565px;
+  color: #282828;
 }
 
 .header {
@@ -27,9 +52,26 @@
 .nav__item {
   text-decoration: none;
   margin-right: 48px;
+  color: #282828;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.contacts__button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  background-color: #FA002C;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  padding: 16px 27px 16px 28px;
 }
 
 .phone {
-  color: bleck;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 6px;
 }
 /*# sourceMappingURL=style.css.map */
