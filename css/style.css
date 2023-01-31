@@ -1,0 +1,35 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 24px 0;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__item {
+  text-decoration: none;
+  margin-right: 48px;
+}
+
+.phone {
+  color: bleck;
+}
+/*# sourceMappingURL=style.css.map */
